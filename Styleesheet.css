@@ -1,0 +1,132 @@
+header{
+    background-color:#3a3f44;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:10px 200px 10px 20px;
+
+}
+.Logo{
+    text-decoration: none;
+    color:bisque;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.Navication a{
+color: antiquewhite;
+text-decoration: none;
+font-size: 1.1em;
+padding-left: 30px;
+font-weight: 400;
+}
+.Navication a:hover{
+    color: rgb(14, 167, 238);
+}
+section{
+    padding: 90px 100px    ;  
+}
+.Main{
+    width: 100%;
+    min-height: 90vh;
+    display:flex;
+    align-items: center;
+    background: url(Images/workspace-1280538.jpg)no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;   
+    display: inline-block;
+}
+.Main h1{
+    color: rgb(15, 15, 15);;
+    font-size:xx-large;
+    font-weight:700 ;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.Main span{
+    color: rgb(37, 37, 37);
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    
+}
+.Main h3{
+    color: rgb(147, 135, 165);
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.MainBoton{
+color: rgb(189, 174, 174);
+background-color: rgb(43, 26, 26);
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding:0.9375em 2.1875em ;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 2s;
+margin-left: 20px;
+}
+.MainBoton:hover{
+    background-color: rgb(19, 5, 5);
+     transform: scale(1.1);
+}
+.Icone a{
+    color: rgb(139, 154, 161);
+    padding-right: 20px;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(83, 71, 71);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Card{
+    background-color:#fff;
+    width: 21.25em;
+    box-shadow:  0 5px 30px rgba(1 1 1 /15%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.7s ease;
+}
+.Card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: dodgerblue ;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: dodgerblue ;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
